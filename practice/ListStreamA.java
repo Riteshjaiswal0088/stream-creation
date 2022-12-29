@@ -9,6 +9,7 @@ public class ListStreamA {
         for (int i = 20; i > 0; i--) {
             list.add(i);
         }
+
         list.forEach(System.out::println);
         IntStream.range(1, 20).forEach(list::add);
         System.out.println(list);
